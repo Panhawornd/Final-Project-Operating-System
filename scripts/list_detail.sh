@@ -4,7 +4,7 @@
 
 script_file="$(pwd)/script.log" # Log file
 
-read -p "Enter directory or file path: " path
+read -p "Enter the directory or file path: " path
 if [ -e "$path" ]; then
     ls -lh "$path"
     # Write message to log file

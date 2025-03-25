@@ -4,8 +4,8 @@
 
 script_file="$(pwd)/script.log" # Log file
 
-read -p "Enter directory path: " dir
-read -p "Enter filename or extension to search: " search
+read -p "Input the directory path: " dir
+read -p "Enter filename or file extension to search: " search
 if [ -d "$dir" ]; then
     # Insensitive case search (eg. *txt, *TxT,...)
     find "$dir" -iname "$search"
