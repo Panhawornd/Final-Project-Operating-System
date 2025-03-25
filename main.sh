@@ -19,22 +19,22 @@ while true; do
 
     case $choice in
         1)
-            bash d:/OS-Project/scripts/list_detail.sh
+            bash ./scripts/list_detail.sh
             ;;
         2)
-            bash d:/OS-Project/scripts/backing_up.sh
+            bash ./scripts/backing_up.sh
             ;;
         3)
-            bash d:/OS-Project/scripts/count_number_of_file.sh
+            bash ./scripts/count_number_of_file.sh
             ;;
         4)
-            bash d:/OS-Project/scripts/display_disk_usage.sh
+            bash ./scripts/display_disk_usage.sh
             ;;
         5)
-            bash d:/OS-Project/scripts/search_file.sh
+            bash ./scripts/search_file.sh
             ;;
         6)
-            bash d:/OS-Project/scripts/compress.sh
+            bash ./scripts/compress.sh
             ;;
         7)
             echo "Exiting..."
